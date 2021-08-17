@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+/.vs/CPP/v16/ipch/AutoPCH/d7cc98e57eb2d142
+/.vs
