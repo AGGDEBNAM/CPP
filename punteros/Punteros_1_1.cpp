@@ -28,8 +28,7 @@ void Guardado(int x,int y)
     x = y;
 }
 
-void Guardado_1(int a,int b)
-{
+void Guardado_1(int a,int)
     a = b;
 
 }
