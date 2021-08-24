@@ -1,35 +1,51 @@
 #include <iostream>
 #include <stdio.h>
+#include <cstdio>
+#include <string>
+#include <cstdlib>
+
 
 using namespace std;
 
-
-int main()
+int main(void)
 {
-    int cadena_1 = 0;
-    int * cadena_3;
-    string cadena_2 = "";
-    cadena_3 = &cadena_1;
+    string entrada = "";
+    int salida = 0;
 
-    
-
-
-    cout << cadena_1 << endl;
-    cout << cadena_2 << endl;
+    char entrada_1 [40];
+    int i;
+    char *pointer ;
+    char x;
 
     while(true)
     {
-        cout << " \n\n Si deseas salir 'S' para salir" << endl;
-        cout << " \n\n Si deseas convertir 'A' o 'a' en numero 1" << endl;
-        cout << " \n\n Si deseas Saber cantidad de consonantes" << endl;        
+        cout << " \n\n Si deseas convertir 'A' o 'a' en numero 1  '1' " << endl;
+        cout << " \n\n Si deseas Saber cantidad de consonantes   'C' " << endl;
+        cout << " \n\n Si deseas salir 'S' para salir " << endl;
+        cin >> entrada ;        
+        if(entrada == "S") break;
+        if(entrada == "1")
+        {
+          cout << " \n\n En este espacio puedes escribir tu frase:  " << endl;
+          cin >> entrada_1;
+          size_t strlen(const char x);
+          while (entrada_1[x] != '\x0')
+        {
+            x++; cout << entrada_1[x];
+        }  
+         gets_s(pointer); 
+          
 
-  
-        if(cadena_2 += "S") break;
+        }
+        if(entrada == "C")
+        {
+
+ 
+
+        }
+        
 
     }
-
-
-
 
     return 0;
 
