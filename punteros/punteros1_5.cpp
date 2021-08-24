@@ -8,7 +8,7 @@ int main()
 {
     int cadena_1 = 0;
     int * cadena_3;
-    string cadena_2 = "A";
+    string cadena_2 = "";
     cadena_3 = &cadena_1;
 
     
@@ -19,7 +19,11 @@ int main()
 
     while(true)
     {
+        cout << " \n\n Si deseas salir 'S' para salir" << endl;
+        cout << " \n\n Si deseas convertir 'A' o 'a' en numero 1" << endl;
+        cout << " \n\n Si deseas Saber cantidad de consonantes" << endl;        
 
+  
         if(cadena_2 += "S") break;
 
     }
