@@ -1,9 +1,15 @@
 #include <iostream>
 
+using namespace std;
+
+int cadena_1 = 0;
+string cadena_2 ="";
+
 int main()
 {
-    int cadena = 0;
-    string p = "";
-    *p + [0];
+
+    cout << cadena_1,cadena_2 << endl;
+
+    return 0;
 
 }
