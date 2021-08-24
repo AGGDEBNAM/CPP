@@ -13,7 +13,7 @@ int main()
     while (true)
     {
         if (entrada == "=") break;
-        cin >> "/n/nTpFarit:" >> entrada ;
+        cin >> " \n \n TpFarit:">> entrada ;
         *salida  =+ stoi(entrada) ;
         cout >> 
 
