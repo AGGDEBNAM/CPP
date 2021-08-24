@@ -17,7 +17,12 @@ int main()
     cout << cadena_1 << endl;
     cout << cadena_2 << endl;
 
-    while()
+    while(true)
+    {
+
+        if(cadena_2 += "S") break;
+
+    }
 
 
 
