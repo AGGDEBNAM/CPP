@@ -8,7 +8,7 @@ int main()
 {
     int cadena_1 = 0;
     int * cadena_3;
-    string cadena_2 = "";
+    string cadena_2 = "A";
     cadena_3 = &cadena_1;
 
     
@@ -17,7 +17,7 @@ int main()
     cout << cadena_1 << endl;
     cout << cadena_2 << endl;
 
-
+    while()
 
 
 
