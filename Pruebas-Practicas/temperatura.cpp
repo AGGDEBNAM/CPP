@@ -30,7 +30,7 @@ int main()
 
             cout << " Introduze temperatura en fahrenheit " << endl;
             cin >>  guardado1 ;
-            cout << " \n CELSIUS: " << guardado1 - alv << endl;
+            cout << " \n CELSIUS: " << (9/5) * stoi (guardado1) - 32 << endl;
 
         }
         if(entrada == "C" )
