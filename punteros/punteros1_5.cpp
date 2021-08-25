@@ -13,8 +13,8 @@ int main(void)
     int salida = 0;
 
     char entrada_1 [40];
-    int i;
-    char *pointer ;
+    int uno = 1;
+    string *pointer ;
     char x;
 
     while(true)
@@ -32,9 +32,7 @@ int main(void)
           while (entrada_1[x] != '\x0')
         {
             x++; cout << entrada_1[x];
-        }  
-         gets_s(pointer); 
-          
+        }
 
         }
         if(entrada == "C")
