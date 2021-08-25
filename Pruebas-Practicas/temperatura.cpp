@@ -7,16 +7,17 @@ using namespace std;
 int main()
 {
 
-    string entrada [1];
-    int guardado1;
-    int guardado2;
-    int division = 5/9;
+    string entrada = "";
+    string guardado1;
+    string guardado2;
+    int mayor = 5/9;
+    int alv = 32;
 
     while (true)
     {
 
         
-        cout << "  FAHRENHEIT A CELSIUS " << endl;
+        cout << " \n FAHRENHEIT A CELSIUS " << endl;
         cout << "  CELSIUS A FAHRENHEIT " << endl;
         cout << "  Ingresa ' F ' para calcular celsius " << endl;
         cout << "  Ingresa ' C ' para calcular fahrenheit " << endl;
@@ -24,21 +25,20 @@ int main()
         cin >> entrada ;
 
         if(entrada == "S" ) break;
-
-        if(entrada == "F" );
+        if(entrada == "F" )
         {
 
-            cin >> guardado1 ;
-            cout << " Introduze temperatura en fahrenheit " << division * guardado1 - 32 << endl;
-            cout << guardado1 << endl;
+            cout << " Introduze temperatura en fahrenheit " << endl;
+            cin >>  guardado1 ;
+            cout << " \n CELSIUS: " << guardado1 - alv << endl;
 
         }
-        if(entrada == "C" );
+        if(entrada == "C" )
         {
 
-            cin >> guardado2 ;
-            cout << " Introduze temperatura en fahrenheit " << division * guardado2 + 32 << endl;
-            cout << guardado2 << endl;
+            cout << " Introduze temperatura en celsius " << endl;
+            cin >>  guardado2 ;
+            cout << " FAHRENHEIT: " << mayor * stoi(guardado2) + 32 << endl;
 
         }
 
