@@ -9,7 +9,7 @@ class Persona{
         int edad;
         char domicilio[60];
         //muestra
-        pedro , juan;
+        int pedro , juan;
 }
 
 int main()
@@ -25,5 +25,6 @@ int main()
     gets(Juan.domicilio);
 
     return 0;
+    
 
 }
