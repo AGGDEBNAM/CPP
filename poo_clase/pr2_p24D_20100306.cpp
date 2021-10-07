@@ -1,7 +1,9 @@
 #include <iostream>
 #include <stdio.h>
+#include <stdlib.h> 
 #include <string.h>
 #include <conio.h>
+#include <cstring>
 
 using namespace std;
 
@@ -14,8 +16,9 @@ void leer()
     cin >> sueldo ;
     cin >> puesto ;
     cin >> nombre ;
+    //!gets_s();
 
-    //** captura de los 3 o 2 atributos
+    //! captura de los 3 o 2 atributos
 }
 
 class empleado{
@@ -24,11 +27,11 @@ class empleado{
         float sueldo;
         int edad;
         char puesto[30];
-        char nombre[40]
-
+        char nombre[40];
+        
         empleado(){};
         empleado (float , char* , char*);
-       ~empleado(); //! ~nombre de la clase () {};
+        //! ~nombre de la clase () {};
         
             void muestra();
 
@@ -38,8 +41,23 @@ class empleado{
         empleado::empleado (float sueldo, char *puesto , char* nombre)
         {
             empleado::sueldo=sueldo;
+            strcpy_s(empleado :: sueldo,sueldo);
             strcpy_s(empleado :: puesto,puesto);
             strcpy_s(empleado :: nombre,nombre);
         }
+
+        void empleado :: muestra(){
+
+            /**cout<<"Sueldo:\n" , edad<< endl;
+            cout<<"Edad:\n" , edad<< endl;
+            cout<<"Puesto:\n" , edad<< endl;
+            cout<<"Puesto:\n" , edad<< endl;*/
+
+        }
+        int main(){
+
+            
+
+        }; 
 
         
