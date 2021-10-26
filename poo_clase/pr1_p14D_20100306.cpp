@@ -3,16 +3,18 @@
 
 using namespace std;
 
-class Persona{
-    public:
-        char nombre[50];
-        int edad;
-        char domicilio[60];
-        //muestra
-        int pedro , juan;
+class Persona
+{
+public:
+    char nombre[50];
+    int edad;
+    char domicilio[60];
+    // muestra
+    int pedro, juan;
 }
 
-int main()
+int
+main()
 {
 
     cout << "introduzca los valores de pedro: ";
@@ -25,6 +27,4 @@ int main()
     gets(Juan.domicilio);
 
     return 0;
-    
-
 }

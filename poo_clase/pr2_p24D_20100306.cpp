@@ -1,6 +1,6 @@
 #include <iostream>
 #include <stdio.h>
-#include <stdlib.h> 
+#include <stdlib.h>
 #include <string.h>
 #include <conio.h>
 #include <cstring>
@@ -8,56 +8,52 @@
 using namespace std;
 
 float sueldo;
-char nombre [30];
-char puesto [40];
+char nombre[30];
+char puesto[40];
 
 void leer()
 {
-    cin >> sueldo ;
-    cin >> puesto ;
-    cin >> nombre ;
-    //!gets_s();
+    cin >> sueldo;
+    cin >> puesto;
+    cin >> nombre;
+    //! gets_s();
 
     //! captura de los 3 o 2 atributos
 }
 
-class empleado{
+class empleado
+{
 
-    public:
-        float sueldo;
-        int edad;
-        char puesto[30];
-        char nombre[40];
-        
-        empleado(){};
-        empleado (float , char* , char*);
-        //! ~nombre de la clase () {};
-        
-            void muestra();
+public:
+    float sueldo;
+    int edad;
+    char puesto[30];
+    char nombre[40];
 
-};//! no se puede colocar aqui los objetos
+    empleado(){};
+    empleado(float, char *, char *);
+    //! ~nombre de la clase () {};
 
+    void muestra();
 
-        empleado::empleado (float sueldo, char *puesto , char* nombre)
-        {
-            empleado::sueldo=sueldo;
-            strcpy_s(empleado :: sueldo,sueldo);
-            strcpy_s(empleado :: puesto,puesto);
-            strcpy_s(empleado :: nombre,nombre);
-        }
+}; //! no se puede colocar aqui los objetos
 
-        void empleado :: muestra(){
+empleado::empleado(float sueldo, char *puesto, char *nombre)
+{
+    empleado::sueldo = sueldo;
+    strcpy_s(empleado ::sueldo, sueldo);
+    strcpy_s(empleado ::puesto, puesto);
+    strcpy_s(empleado ::nombre, nombre);
+}
 
-            /**cout<<"Sueldo:\n" , edad<< endl;
-            cout<<"Edad:\n" , edad<< endl;
-            cout<<"Puesto:\n" , edad<< endl;
-            cout<<"Puesto:\n" , edad<< endl;*/
+void empleado ::muestra()
+{
 
-        }
-        int main(){
+    /**cout<<"Sueldo:\n" , edad<< endl;
+    cout<<"Edad:\n" , edad<< endl;
+    cout<<"Puesto:\n" , edad<< endl;
+    cout<<"Puesto:\n" , edad<< endl;*/
+}
+int main(){
 
-            
-
-        }; 
-
-        
+};
